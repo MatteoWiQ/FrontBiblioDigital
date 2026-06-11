@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const api = axios.create({
 
-  baseURL: import.meta.env.VITE_API_URL || 'https://backendbibliodigital-production.up.railway.app/',
+  baseURL: import.meta.env.VITE_API_URL || 'https://backendbibliodigital-production.up.railway.app/api',
 });
 
 api.interceptors.request.use(

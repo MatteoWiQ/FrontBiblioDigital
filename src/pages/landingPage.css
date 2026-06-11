@@ -1,0 +1,139 @@
+.landing-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Sección Hero */
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%);
+  border-bottom: 1px solid #e1f0ff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: #003366;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #5a6e85;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+}
+
+/* Sección de Beneficios */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.feature-card {
+  flex: 1;
+  background: white;
+  padding: 40px 25px;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid #e1f0ff;
+  box-shadow: 0 4px 15px rgba(0, 91, 187, 0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 91, 187, 0.08);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  color: #003366;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #5a6e85;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .features-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+}
+
+/* Ajustes específicos para centrar el PageHeader en la LandingPage */
+.landing-layout .page-header-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: none;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.landing-layout .page-header-left {
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.landing-layout .page-header-text {
+  text-align: center;
+  min-width: 0;
+}
+
+.landing-layout .page-header-actions {
+  justify-content: center;
+}
+
+.landing-layout .page-header-logo {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 768px) {
+  .landing-layout .page-header-logo {
+    width: 36px;
+    height: 36px;
+  }
+  .landing-layout .page-header-container {
+    padding: 8px 12px;
+  }
+}

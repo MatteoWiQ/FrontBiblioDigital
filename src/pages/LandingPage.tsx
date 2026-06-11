@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import PageHeader from '../components/PageHeader';
 import Button from '../components/Button';
 import SEO from '../components/SEO';
-import './LandingPage.css';
+import './landingPage.css';
 
 export default function LandingPage() {
   const navigate = useNavigate();

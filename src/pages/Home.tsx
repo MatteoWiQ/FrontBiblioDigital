@@ -5,7 +5,7 @@ import { AuthContext } from '../context/AuthContext';
 import PageHeader from '../components/PageHeader';
 import Button from '../components/Button';
 import SEO from '../components/SEO';
-import './Home.css';
+import './home.css';
 
 interface Libro {
   id: number;

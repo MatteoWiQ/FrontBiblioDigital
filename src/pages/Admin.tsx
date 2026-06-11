@@ -9,7 +9,7 @@ import PageHeader from '../components/PageHeader';
 import { type Libro, type Usuario } from '../interfaces';
 import SEO from '../components/SEO';
 import { AuthContext } from '../context/AuthContext';
-import './Admin.css';
+import './admin.css';
 
 export default function Admin() {
   const navigate = useNavigate();

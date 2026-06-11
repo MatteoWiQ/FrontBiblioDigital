@@ -5,7 +5,7 @@ import { AuthContext } from '../context/AuthContext';
 import { api } from '../services/api';
 import PageHeader from '../components/PageHeader';
 import SEO from '../components/SEO';
-import './Login.css';
+import './login.css';
 
 export default function Login() {
   const [isRegister, setIsRegister] = useState(false);

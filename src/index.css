@@ -7,7 +7,6 @@
   font-weight: 400;
 }
 
-/* 2. Forzamos a que todos los elementos respeten el tamaño exacto (box-sizing) */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,15 +14,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* 3. Le damos un fondo claro y elegante a toda la página (modo claro) */
 body {
-  background-color: #f4f6f9; /* Un gris muy clarito, ideal para paneles de administración */
-  color: #333333; /* Texto oscuro para que contraste bien */
+  background-color: #f4f6f9; 
+  color: #333333;
   min-width: 100vw;
   min-height: 100vh;
 }
 
-/* Opcional: Para que los enlaces no tengan la línea por debajo */
 a {
   text-decoration: none;
   color: inherit;
@@ -38,9 +35,9 @@ a {
 .app-layout {
   display: flex;
   flex-direction: column;
-  flex: 1; /* Permite que el contenedor crezca y ocupe todo el espacio disponible */
+  flex: 1; 
 }
 
 .main-content {
-  flex: 1; /* Empuja el footer hacia abajo */
+  flex: 1; 
 }
